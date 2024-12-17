@@ -1,0 +1,39 @@
+/* LoginPage.css */
+.login-page {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .ant-form-item-label {
+    font-weight: 500;
+  }
+  
+  .ant-card {
+    background-color: #fff;
+  }
+  
+  @media (max-width: 576px) {
+    .login-card {
+      padding: 15px;
+    }
+    .login-title {
+      font-size: 20px;
+    }
+  }
+  
